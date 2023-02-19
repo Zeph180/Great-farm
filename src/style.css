@@ -1,7 +1,11 @@
-.hello {
-  color: red;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 body {
   background-color: bisque;
+  font-family: 'Montserrat', sans-serif;  
+  margin: 0;
+  padding: 0;
+}
+
+*{
+   color: #191819;
 }
