@@ -2,6 +2,8 @@ nav {
   font-size: 20px;
   margin-top: 5px;
   font-weight: bold;
+  position: fixed;
+  width: 100%;
 }
 
 #head {
@@ -20,11 +22,11 @@ nav {
   color: #2acc32;
 }
 
-.close-btn {
+.nav-btn {
   font-size: 30px;
 }
 
-.close-btn:hover {
+.nav-btn:hover {
   color: #2acc32;
 }
 
@@ -34,6 +36,7 @@ nav {
   margin: 0;
   list-style: none;
   text-align: right;
+  display: none;
 }
 
 li:hover {
