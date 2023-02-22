@@ -1,12 +1,184 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body {
-  background-color: bisque;
   font-family: 'Montserrat', sans-serif;
-  margin: 0;
+  margin: 0 0 10px 0;
   padding: 0;
 }
 
 * {
-  color: #191819;
+  /* color: #191819; */
+  font-weight: 400;
+  font-size: 18px;
+}
+
+nav {
+  font-size: 20px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  padding: 5px 0;
+  width: 100%;
+}
+
+#head {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  margin: auto ;
+  justify-content: space-between;
+}
+
+#logo {
+  width: 120px;
+  font-size: 25px;
+  height: 50px;
+  background-image: url(./asset/images/logo.png);
+  background-repeat: no-repeat;
+}
+
+.nav-btn {
+  font-size: 30px;
+}
+
+.nav-btn:hover {
+  color: #2acc32;
+}
+
+#nav-list {
+  float: right;
+  padding: 0 40px 0;
+  margin: 0;
+  list-style: none;
+  text-align: right;
+  display: none;
+}
+
+li:hover {
+  color: #4cc552;
+}
+
+li:active {
+  color: #2acc32;
+  font-weight: 500;
+}
+
+li:visited {
+  color: teal;
+}
+
+#nav-list li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#contact {
+  border: 2px solid #2acc32;
+  border-radius: 50px;
+  padding: 7px;
+  width: 130px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+#contact:hover {
+  color: red;
+}
+
+main {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main > * {
+  width: 80%;
+}
+
+.sect-heading {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 48px;
+  text-align: center;
+}
+
+#catch-sec {
+  width: 291px;
+}
+
+#catch-sec p {
+  text-align: center;
+}
+
+#catch-sec  br {
+  display: none;
+}
+
+#home-img-cont {
+  height: 343px;
+  background-position-x: center;
+  background-size:  cover;
+  background-repeat: no-repeat;
+  background-image: url(./asset/images/coffee.jpg);
+}
+
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    padding: 5px 10px;
+    display: flex;
+    width: 90%;
+  }
+
+  #logo {
+    display: inline;
+    margin: 0;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  #nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    font-size: 13px;
+  }
+
+  #nav-list li {
+    padding-right: 10px;
+  }
+
+  #catch-sec {
+    width: 80%;
+    position: absolute;
+    color: white;
+  }
+
+  .sect-heading {
+    font-size: 90px;
+    line-height: 96px;
+  }
+
+  #catch-sec p {
+    font-size: 26px;
+  }
+
+  #catch-sec p br {
+    display: block;
+  }
+
+  #home-img-cont {
+    margin-top: 30px;
+    height: 500px;
+  }
 }
