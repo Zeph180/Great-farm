@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0 0 10px 0;
@@ -24,7 +25,7 @@ nav {
   display: flex;
   flex-direction: row;
   width: 85%;
-  margin: auto ;
+  margin: auto;
   justify-content: space-between;
 }
 
@@ -112,14 +113,14 @@ main > * {
   text-align: center;
 }
 
-#catch-sec  br {
+#catch-sec br {
   display: none;
 }
 
 #home-img-cont {
   height: 343px;
   background-position-x: center;
-  background-size:  cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-image: url(./asset/images/coffee.jpg);
 }
