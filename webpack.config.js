@@ -14,6 +14,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'Output Management',
       template: './src/index.html',
+      filename: 'index.html',
+      chunks: ['index'],
       inject: true,
     }),
     new HtmlWebpackPlugin({
@@ -41,7 +43,7 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset',
+        type: 'asset/resource',
       },
     ],
   },
