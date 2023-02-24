@@ -2,6 +2,10 @@ import logistics from '../asset/images/servicesIcons/logistics.svg';
 import consult from '../asset/images/servicesIcons/consultation.svg';
 import haulage from '../asset/images/servicesIcons/haulage.svg';
 import exportIcon from '../asset/images/servicesIcons/export.svg';
+import satisfaction from '../asset/images/reasons/satisfaction.png';
+import loyalty from '../asset/images/reasons/loaylty.svg';
+import quality from '../asset/images/reasons/quality.svg';
+import feedback from '../asset/images/reasons/feedback.svg';
 
 const services = [
   {
@@ -36,4 +40,27 @@ const services = [
   },
 ];
 
-export default services;
+const reasons = [
+  {
+    icon: satisfaction,
+    title: 'Satisfaction',
+    desc: 'This is the Bedrock of our establishment. We are poised to always maximally satisfy our customers.',
+  },
+  {
+    icon: loyalty,
+    title: 'Loyalty',
+    desc: 'We do not comprise quality and trust once it comes our customer satisfaction and make sure we keep up with our customers need',
+  },
+  {
+    icon: quality,
+    title: 'Quality',
+    desc: 'We provide only industry-standard product and services to our clients, partners, and customers. ',
+  },
+  {
+    icon: feedback,
+    title: 'Feedback',
+    desc: 'We consider feedback the most important tool for improvement and take into consideration every detail ',
+  },
+];
+
+export { services, reasons };
