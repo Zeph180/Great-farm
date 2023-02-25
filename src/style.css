@@ -332,7 +332,7 @@ input {
   font-size: 20px;
 }
 
-footer p {
+#footer {
   text-align: center;
   font-size: 15px;
   margin: 0;
