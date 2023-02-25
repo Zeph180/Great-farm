@@ -3,9 +3,10 @@ import consult from '../asset/images/servicesIcons/consultation.svg';
 import haulage from '../asset/images/servicesIcons/haulage.svg';
 import exportIcon from '../asset/images/servicesIcons/export.svg';
 import satisfaction from '../asset/images/reasons/satisfaction.png';
-import loyalty from '../asset/images/reasons/loaylty.svg';
-import quality from '../asset/images/reasons/quality.svg';
-import feedback from '../asset/images/reasons/feedback.svg';
+import loyalty from '../asset/images/reasons/loyalty.png';
+import quality from '../asset/images/reasons/quality.png';
+import feedback from '../asset/images/reasons/feedback.png';
+import logo from '../asset/images/logo.png';
 
 const services = [
   {
@@ -63,4 +64,4 @@ const reasons = [
   },
 ];
 
-export { services, reasons };
+export { services, reasons, logo };
