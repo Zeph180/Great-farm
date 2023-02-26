@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 // import _ from 'lodash';
 import {
-  servicesBtn, servicesSec, whyUs, whyUsBtn, closeBtn,
+  servicesBtn, servicesSec, whyUs, whyUsBtn,
 } from './domElements.js';
 import createCard from './js/card.js';
 import { hamburgerEvents, closeEvent } from './js/hamburger.js';
