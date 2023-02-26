@@ -41,6 +41,10 @@ nav {
   font-size: 30px;
 }
 
+.hidden {
+  display: none;
+}
+
 .nav-btn:hover {
   color: #2acc32;
 }
